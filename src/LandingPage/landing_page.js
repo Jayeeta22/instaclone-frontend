@@ -6,7 +6,7 @@ export default function Landingpage() {
   return (
     <div className="LandingPage">
       <div className="Img">
-        <img src={require("../Images/galaxy.jpg")} alt="1" />
+        <img src={require("../Images/galaxy.jpeg")} alt="1" />
       </div>
 
       <div className="Title">
