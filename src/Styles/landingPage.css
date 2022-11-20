@@ -33,6 +33,7 @@
   justify-items: center;
   color: green;
   font-size: xx-large;
+  font-weight: 100;
 }
 
 .button {
@@ -41,7 +42,7 @@
   margin: 0%;
   padding: 10%;
   color: green;
-  border: 5px solid green;
+  border: 1px solid green;
   text-align: center;
   border-radius: 20px;
   font-size: x-large;
