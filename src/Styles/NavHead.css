@@ -4,31 +4,34 @@
   top: 0;
   display: flex;
   width: 100%;
-  border-bottom: grey solid 2px;
+  height: 15vh;
+  border: 1px solid gray;
   justify-content: space-between;
   z-index: 20px;
+ 
 }
 
 .logo {
   display: flex;
-  margin-left: 10%;
-  color: darkgreen;
-  font-size:x-large;
-  font-family: "Times New Roman", Times, serif;
+  margin-left: 5%;
+  color: palevioletred;
+ font-size: x-large;
+ font-family: cursive;
 }
 
 .logo img {
-  width: 5%;
+  width: 20%;
+
 }
 
 .Cam {
-  width: 40px;
-  margin-right: 10%;
+  width: 30px;
+  margin-right: 5%;
   cursor: pointer;
 }
 
 .Camicon{
   display: flex;
-  margin-right: 10%;
+  margin-right: 5%;
   margin-top: 1%;
 }

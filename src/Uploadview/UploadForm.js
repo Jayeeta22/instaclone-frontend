@@ -31,7 +31,7 @@ export default function UploadForm() {
     console.log(formData);
 
     axios
-      .post("https://instaclone-jayee-backend.herokuapp.com/upload", formData, {
+      .post("http://localhost:5000//upload", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       })
       .then((res) => {
@@ -73,7 +73,7 @@ export default function UploadForm() {
     <div className="container">
       <form
         method="POST"
-        action="http://localhost:3000/postview"
+        action="http://localhost:5000/postview"
         encType="multipart/form-date"
         onSubmit={Submithandler}
       >
